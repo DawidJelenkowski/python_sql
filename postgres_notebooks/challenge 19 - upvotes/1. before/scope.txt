@@ -1,0 +1,16 @@
+####################
+# CHALLENGE 19     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - create a new database table called upvotes that will store which user upvotes (or likes) which
+# message
+
+# - in addition to its own primary key, the table should store the following fields,
+# all non-nullable
+
+    # - user_id, to reference users.id
+    # - message_id, to reference guestbook.id, and
+    # - created_at which will default to the time when the record was created
+

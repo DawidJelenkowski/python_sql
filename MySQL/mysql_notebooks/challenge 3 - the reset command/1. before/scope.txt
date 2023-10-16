@@ -1,0 +1,12 @@
+####################
+# CHALLENGE 3      #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - introduce a new interface command called "reset-database"
+
+# - this command should recreate the database and the tables
+
+# - it need not take any arguments for now
+

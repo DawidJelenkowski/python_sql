@@ -1,0 +1,12 @@
+####################
+# CHALLENGE 16     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - add a new command called "transcript" that shows all the courses a student has taken
+    # python registrar.py transcript jd1
+
+# - the course moniker, year taken, and grade for each course should be shown
+
+# - in addition, also calculate and display the average GPA for the student

@@ -1,0 +1,44 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: python-server
+    command: uvicorn app.main:app --host 0.0.0.0 --port 80 --reload
+    ports:
+      - 80:80
+      - 8000:8000
+    volumes:
+      - .:/code
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:15.3
+    restart: always
+    hostname: postgres
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4:7.3
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@pgadmin.com
+      PGADMIN_DEFAULT_PASSWORD: password
+      PGADMIN_LISTEN_PORT: 5050
+    ports:
+      - 5050:5050
+    volumes:
+      - pgadmin:/var/lib/pgadmin
+    depends_on:
+      - postgres
+
+volumes:
+  app:
+  postgres:
+  pgadmin:

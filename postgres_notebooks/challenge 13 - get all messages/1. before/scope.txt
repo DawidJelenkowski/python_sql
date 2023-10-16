@@ -1,0 +1,30 @@
+####################
+# CHALLENGE 13     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - implement a new HTTP GET /messages route to allow users to view all public messages, in addition
+# to the private ones they own
+
+# - this should be an authenticated route
+
+# - the route should accept a single query parameter called num, which will control how many messages
+# will be returned. This should be an optional param that defaults to 10.
+
+# - the route should return a json of message objects, each of which will contain only 3 attributes:
+#  the id of the message, its content and when it was created. For example:
+
+    # [
+    #   {
+    #     "id": 6,
+    #     "message": "a public msg",
+    #     "created_at": "2022-10-16T21:00:39.541505"
+    #   },
+    #   {
+    #     "id": 7,
+    #     "message": "a new public message",
+    #     "created_at": "2022-10-16T21:31:29.262563"
+    #   }
+    # ]
+

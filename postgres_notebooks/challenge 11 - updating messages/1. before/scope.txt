@@ -1,0 +1,12 @@
+####################
+# CHALLENGE 11     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - implement a new HTTP PATCH (or PUT) /messages/{message_id} route to allow users to update
+#  the message content and its privacy
+
+# - this should be an authenticated route
+
+# - in addition, only owners of the message should be allowed to update a given message

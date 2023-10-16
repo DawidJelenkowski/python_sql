@@ -1,0 +1,21 @@
+####################
+# CHALLENGE 3      #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - refactor the code responsible for saving the user to the database so that is relies on a behavior
+# of the Database class instead with the following signature:
+
+    #     db.write(table: str, columns: list[str], values: list)
+
+# e.g. instead of our current context manager insert statement, we'd say:
+#     db.write('users', ['email', 'password'], [email, hashed_password]) -> int
+
+    # * the first argument "users" specifies the table name
+    # * the second argument indicates the list of columns we're inserting into
+    # * the third argument reflects the values being inserted
+
+# in addition, also ensure that the .write() method of the Database type returns the id of the
+# newly inserted record
+

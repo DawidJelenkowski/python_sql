@@ -1,0 +1,15 @@
+####################
+# CHALLENGE 18     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - implement a HTTP GET /messages/search route which lets users search the guestbook by a given
+# search term, obtaining a maximum of num messages back, where search_term and num are query
+# parameters
+
+# - this should be an authenticated route
+
+# - the route should return a json array of messages that include the search term and are either
+# public or private but posted by the authenticated user
+

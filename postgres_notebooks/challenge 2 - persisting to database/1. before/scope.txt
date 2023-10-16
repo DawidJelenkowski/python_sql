@@ -1,0 +1,10 @@
+####################
+# CHALLENGE 2      #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - persist the registered user to the database. in other words, store the email
+# and hashed password for each valid registration
+
+# - bonus: before saving, validate that the password is at least 8 chars in length

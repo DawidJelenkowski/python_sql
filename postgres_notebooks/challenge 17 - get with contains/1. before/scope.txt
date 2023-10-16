@@ -1,0 +1,27 @@
+####################
+# CHALLENGE 17     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - refactor the implementation for Database .get() so that it supports the LIKE operator too
+
+# - unlike .get_contains(), we're looking for more precise search alongisde specific columns
+# and values, specified in a dictionary
+
+# importantly, there could be more than one key-value, which should be combined with logical OR
+
+# - suggested signature:
+
+    # def get_contains(self, table: str, columns: list[str], search: str, limit: int = None):
+    #     pass
+
+# - sample usage:
+
+    # db.get_contains("table", ["col1", "col2"], "trm", 2)
+
+# should generate
+
+    # SELECT col1, col2 FROM table WHERE col1 LIKE '%trm%' or col2 LIKE '%trm%' LIMIT 2;
+
+# - the method should fetch and return all records returned by the dynamically generated query

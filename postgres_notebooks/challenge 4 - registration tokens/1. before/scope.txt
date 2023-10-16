@@ -1,0 +1,14 @@
+####################
+# CHALLENGE 4      #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - generate a random uuid (i.e. v4) that will serve as the registration token
+
+# - hint: you could use the built-in uuid module in python, eg
+        # from uuid import uuid4
+        # str(uuid4())
+        # 91148331-c2e5-4ea0-a0aa-d817cfce735c
+
+# - save the uuid into the tokens table when the user registers

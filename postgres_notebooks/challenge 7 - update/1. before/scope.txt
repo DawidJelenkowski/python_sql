@@ -1,0 +1,21 @@
+####################
+# CHALLENGE 7      #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - implement an .update() method for our Database type. Sample signature:
+
+    # def update(self, table: str, columns: list[str], data: list, where: dict = None):
+    #   pass
+
+# - For example:
+
+    # db.update('users', ['active', 'col2'], ['true', 'val2'], where={'id': 2})
+
+# should generate the following statement
+
+#     UPDATE users SET active = true, col2 = val2 WHERE id = 2;
+
+# - the method should execute the dynamically generated statement and return the number of
+# rows affected by the update

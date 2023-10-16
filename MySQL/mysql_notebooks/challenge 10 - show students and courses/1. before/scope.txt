@@ -1,0 +1,21 @@
+####################
+# CHALLENGE 10     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - add a new command called "show-students" that displays all the students whose last name
+# includes a specific string of characters
+
+# - the command should accept a single required argument
+    # python registrar.py show-students do
+    # ...would display all students whose last name includes 'do', e.g. John Doe and Jane Doe
+    # note: this is a string contains/regex like operator; not an equality operator
+
+
+# - add a new command called "show-courses" that displays all the courses gor a given department
+
+# - the command should accept a single required argument
+    # python registrar.py show-courses "computer science"
+    # ...would display all the courses in the CS department
+

@@ -1,0 +1,14 @@
+####################
+# CHALLENGE 9      #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - add a new command called "show-prereqs" that displays all the prerequisite courses
+# alongside their required minimum grades
+
+# - the command should accept a course moniker as its only required argument
+    # python registrar.py show-prereqs cs304
+
+# - it should output to the terminal the output in tabular format
+    # rich Table

@@ -1,0 +1,24 @@
+####################
+# CHALLENGE 6      #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - introduce a new database table to model course prerequisites
+
+# - the table should capture:
+#   * course: for which the prerequisite applies
+#   * prereq: the prerequisitive of the course
+#   * min_grade: the minimum grade the student should have earned in the prereq
+
+# - we should also validate that course and prereq are valid courses, e.g.
+# they should be foreign keys to courses table, not just any values
+
+# - further, min_grade should be validated to be between 0 and 100
+
+# - try to define the validations as part of the data model in SQL, rather than in
+# python
+
+# - finally, introduce a new 'add-prereq' command to the interface and implement
+#  the functionality required for the user to add prerequisites to the database
+

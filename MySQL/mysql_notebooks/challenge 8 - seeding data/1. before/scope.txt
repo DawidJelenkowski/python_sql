@@ -1,0 +1,16 @@
+####################
+# CHALLENGE 8      #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - create some student, course, and prerequisite records
+
+# - offer the user the option to seed the data when they reset the database, so
+# the new database would start out with some records instead of completely blank
+
+# - as a bonus, try to keep the above data in python data scrutures and separate
+#  from the DDL script
+
+# - as another bonus, try to extend the query() function so that it is useful to
+#  carry out single-table, multi-record inserts as part of one invocation

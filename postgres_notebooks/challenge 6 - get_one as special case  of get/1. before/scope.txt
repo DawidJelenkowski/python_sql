@@ -1,0 +1,14 @@
+####################
+# CHALLENGE 6      #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - implement a more general .get() method that introduces a limit parameter, e.g. signature
+
+    # def get(self, table: str, columns: list[str], limit: int = None, where: dict = None):
+    #     pass
+
+# - refactor the .get_one() method to refer to the more generalized .get() method defined above
+
+# - note: the refactor should not result in any changes to our interface code

@@ -1,0 +1,12 @@
+####################
+# CHALLENGE 18     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - add a new command "most-enrolled" that displays the top n most popular courses, measured by
+# historical student enrollment
+
+# - n should be an optional argument. When not specified, it should default to 10
+
+

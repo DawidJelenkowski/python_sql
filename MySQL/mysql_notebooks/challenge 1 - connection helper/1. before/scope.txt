@@ -1,0 +1,8 @@
+####################
+# CHALLENGE 1      #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - define a connection helper that establishes a connection to the MySQL server
+#   and returns the connection object

@@ -1,0 +1,18 @@
+####################
+# CHALLENGE 19     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - add a new command "top-students" that displays the top n students, ranked by average grade earned
+
+# - n should be an optional argument. When not specified, it should default to 10
+
+# - the command should display the following columns:
+    # * student's unix id
+    # * students first name
+    # * student's last name
+    # * the number of courses the student has taken (and earned a grade in)
+    # * the average grade earned by that student
+
+

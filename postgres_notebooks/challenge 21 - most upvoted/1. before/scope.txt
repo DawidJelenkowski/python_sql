@@ -1,0 +1,28 @@
+####################
+# CHALLENGE 21     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - create a route HTTP GET /messages/most_upvoted that will show the 10 most popular messages in
+# descending order of upvotes they've received
+
+# - hint: this would require a join of two tables. Feel free to either create a database construct for
+# this or modify our Database type to generate the query at runtime.
+
+# - this should NOT be an authenticated route
+
+# - sample response:
+
+    # [
+    #   {
+    #     "id": 1,
+    #     "message": "a course on sqlalchemy next",
+    #     "upvotes": 19
+    #   },
+    #   {
+    #     "id": 2,
+    #     "message": "no, pydantic",
+    #     "upvotes": 12
+    #   }
+    # ]

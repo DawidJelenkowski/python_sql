@@ -1,0 +1,23 @@
+####################
+# CHALLENGE 1      #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - write the DDL to define the users and tokens tables, which will support the
+# user registration flow
+
+# - the users table should include the following fields
+#     * id, a primary key
+#     * email, a required text field
+#     * password, a required text field
+#     * active, a boolean that defaults to false
+#     * created_at, a timestamp that defaults to the time when the record is created
+#     * activated_at, a nullable timestamp with no default
+
+
+# the tokens table should include the following fields:
+#     * id, a primary key
+#     * token, a required text field
+#     * user_id, a foreign key to the users.id
+#     * created_at, a timestamp that defaults to the time when the record is created

@@ -1,0 +1,20 @@
+services:
+  workspace:
+    build: .
+    container_name: python-server
+    command: sh -c "sleep 10s python --host 0.0.0.0 --port 80 --reload"
+    ports:
+      - 80:80
+    volumes:
+      - .:/code
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      - '3306:3306'

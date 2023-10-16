@@ -1,0 +1,12 @@
+####################
+# CHALLENGE 14     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - add a new command called "unenroll" that unenrolls a student from a course
+# in a given year
+
+# - the year should ideally be an optional argument that defaults to the current year if not
+# specified
+

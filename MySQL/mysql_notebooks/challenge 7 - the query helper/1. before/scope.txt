@@ -1,0 +1,19 @@
+####################
+# CHALLENGE 7      #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - abstract away the cursor creation and statement execution into a standalone
+# helper called query()
+
+# - query() should take a connection, a SQL statement, and some data and handle
+# the execution of the statement
+
+# - the method's signature should support DDL, DML, and DQL statements and get
+# cues as to what it's running from the method signature, e.g.
+    # query(conn, q, data=("a", "b))  -> DML because data arg passed in
+    # query(conn, q, fetch=True)      -> DQL that wants results back
+    # query(conn, q)                  -> DDL or DQL, no results returned
+
+# - finally, refactor the other database helpers to use the query helper instead

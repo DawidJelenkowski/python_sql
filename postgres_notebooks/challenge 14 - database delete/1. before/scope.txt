@@ -1,0 +1,24 @@
+####################
+# CHALLENGE 14     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - implement a database .delete() method that generates dynamic SQL to delete from a specified
+# table under an arbitrary number of conditions
+
+# - suggested signature:
+
+    # def delete(self, table: str, where: dict = None):
+    #     pass
+
+# - sample usage:
+
+    # db.delete("table", where={"k1": "v1", "k2": "v2"})
+
+# should generate
+
+    # DELETE from table WHERE k1 = v1 AND k2 = v2;
+
+# - the method should execute the generated SQL and return the number of records affected
+# by the operation

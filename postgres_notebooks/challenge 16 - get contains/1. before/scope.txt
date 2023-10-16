@@ -1,0 +1,38 @@
+####################
+# CHALLENGE 17     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - implement a new Database method that is similar to our current .get() except it supports the LIKE
+#  operator
+
+# - the method should scan a given table across the specified number of columns for a given
+#  search term, and return all records that match that character pattern
+
+# - suggested signature:
+
+#     def get(self, table: str, columns: list[str], limit: int = None, where: dict = None, or_where: dict = None,
+#             contains: dict = None):
+#         pass
+
+# - example 1:
+
+    # db.get("table", ["col1", "col2"], contains={"col3": "val1", "col4": "val4"})
+
+# should generate:
+
+    # SELECT col1, col2 FROM table WHERE col3 LIKE '%val1%' OR col4 LIKE '%val4%';
+
+# - example 2:
+
+    # db.get("table", ["col1", "col2"],
+        #       where={"col2": "val2"},
+        #       contains={"col3": "val1", "col4": "val4"})
+
+# should generate:
+
+    # SELECT col1, col2 FROM table WHERE col2 = 'val2' AND col3 LIKE '%val1%' OR col4 LIKE '%val4%';
+
+# - the method should fetch and return all records obtained from executing the dynamically
+# generated query

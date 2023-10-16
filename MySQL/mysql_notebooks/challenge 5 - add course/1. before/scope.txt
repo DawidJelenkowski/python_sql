@@ -1,0 +1,11 @@
+####################
+# CHALLENGE 5      #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - complete the functionality for the "add-course" command
+
+# - this should take moniker, name and department from the user (all of
+# which are required) and insert them into the courses table
+

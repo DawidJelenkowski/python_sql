@@ -1,0 +1,10 @@
+####################
+# CHALLENGE 15     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - add a new command called "current-courses" that shows all the courses a student is taking
+
+# - assume that if a user is enrolled in a course but does not have a grade yet, then it's because
+# they are currently taking the course

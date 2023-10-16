@@ -1,0 +1,12 @@
+####################
+# CHALLENGE 15     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - implement a new HTTP DELETE /messages/{message_id} route to enable users to delete messages they
+# own
+
+# - this should be an authenticated route
+
+# - in addition, users should only be allowed to delete messages that they had posted before

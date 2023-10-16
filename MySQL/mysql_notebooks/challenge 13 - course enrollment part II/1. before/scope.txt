@@ -1,0 +1,9 @@
+####################
+# CHALLENGE 13     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - add logic to enforce that the course prerequisites are met before a student is allowed to enroll
+# in a given course
+

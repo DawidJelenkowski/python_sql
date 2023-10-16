@@ -1,0 +1,13 @@
+####################
+# CHALLENGE 8      #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - complete the /activate workflow. specifically, when an HTTP POST method is received at the
+# endpoint:
+
+    #  - verify that the token exists
+    #  - if it does, update the corresponding user's account to be active,
+    #     and capture the activated_at timestamp
+    #  - if it is not, raise an HTTP exception indicating that the token is invalid

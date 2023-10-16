@@ -1,0 +1,16 @@
+####################
+# CHALLENGE 20     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - create a route HTTP POST /messages/{message_id}/upvote that will allow users to upvote messages,
+# with the votes saved in the upvotes table
+
+# - this should be an authenticated route
+
+# - in addition the following should be disallowed:
+
+    # * upvoting own messages
+    # * upvoting private messages
+    # * upvoting more than once

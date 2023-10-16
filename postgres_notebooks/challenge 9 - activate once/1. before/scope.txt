@@ -1,0 +1,8 @@
+####################
+# CHALLENGE 9      #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - ensure that the account status update (active = true, activated_at = current_timestamp) only occurs
+# when the token is valid and the account is inactive

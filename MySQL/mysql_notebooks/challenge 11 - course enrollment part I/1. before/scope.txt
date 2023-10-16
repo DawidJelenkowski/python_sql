@@ -1,0 +1,23 @@
+####################
+# CHALLENGE 11     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - define a new table to record course enrollments, e.g. a student_course table that stores the
+# following
+
+    # * student: the student's unix id, e.g. jd1
+    # * course: the course's moniker, e.g. CS304
+    # * year: the year in which the user enrolled, e.g. 2023
+    # * grade: the grade the student has earned in the course
+
+# - in terms of data integrity,
+    # * please ensure student and course are valid references to the entities they relate to, not
+    # just any value, and
+    # * a student cannot enroll in the same course in the same year more than once, and
+    # * the grade should be an integer between 0 and 100
+
+# - add a new command called "enroll" that enrolls a student into the course.
+
+# at this point, it's NOT necessary to check that the prerequisites are met.

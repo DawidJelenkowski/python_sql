@@ -1,0 +1,19 @@
+####################
+# CHALLENGE 17     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - add letter grades (alongisde integer grades) to the transcript we built in the previous challenge
+
+# - assume the following thresholds:
+    # 90 for an "A"
+    # 80 for "B"
+    # 70 for "C"
+    # 60 for "D"
+    # "F" for anything lower
+
+# - the same "transcript" command should display a new column called "Letter Grade" to display this
+# output
+
+

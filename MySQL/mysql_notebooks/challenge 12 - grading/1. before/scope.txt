@@ -1,0 +1,15 @@
+####################
+# CHALLENGE 12     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - define a new command called 'grade' which should update the grade in an enrollment record, e.g.
+    # python registrar.py grade jd1 econ101 100
+    # ...would update jd1's econ101 grade to 100
+
+# - the method should also accept an optional year argument to support use cases where a grade is
+# being upgraded for a course taken in a previous year. If this argument, is not specified, it
+#  defaults to the current year.
+    #     jd1 econ101 2021 90 -> updates the 2021 enrollment
+    #     jd1 econ101 90      -> updates the current (runtime) year enrollment

@@ -1,0 +1,18 @@
+####################
+# CHALLENGE 10     #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - create a new table called guestbook, which will store messsages. It should capture the following
+# attributes, in addition to its primary key:
+
+    #     message - the user's message; cannot be null
+    #     user_id - the user posting the message; cannot be null + must be a FK to users
+    #     private - a boolean to indicate whether the message is private or not
+    #     created_at - the timestamp when the message was created; default to record insertion time
+    #     updated_at - the timestamp when the message was updated
+
+# - implement the right logic for HTTP POST /messages to insert messages to the table. For the time
+# being, we could hardcode user_id to a fixed value. We
+

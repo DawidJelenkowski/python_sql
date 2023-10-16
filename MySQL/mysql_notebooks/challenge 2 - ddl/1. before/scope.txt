@@ -1,0 +1,22 @@
+####################
+# CHALLENGE 2      #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - write the DDL to define the students and courses tables
+
+# - students should store
+#     * first_name
+#     * last_name
+#     * unix_id (a short-hand unique identifier that the school assigns to each student)
+
+# - courses should store
+#     * moniker (a short-form id, like ECON101),
+#     * name (the full name of the course),
+#     * department
+
+# ...in addition to their respective primary keys
+
+# - BONUS: see if you could separate the DDL out into a standalone file rather than storing
+# it in python strings

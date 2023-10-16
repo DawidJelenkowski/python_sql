@@ -1,0 +1,11 @@
+####################
+# CHALLENGE 4      #
+####################
+# SCOPE OF WORK    #
+####################
+
+# - complete the functionality for the "add-student" command
+
+# - this should take first_name, last_name and unix_id from the user (all of
+# which are required) and insert them into the database
+
