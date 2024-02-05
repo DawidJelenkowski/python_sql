@@ -1,5 +1,5 @@
 ipykernel==6.23.2
-fastapi==0.85.0
+fastapi==0.109.1
 uvicorn==0.18.3
 psycopg2_binary==2.9.4
 python-dotenv==0.21.0
